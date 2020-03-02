@@ -11,15 +11,6 @@
 /* regole debug */
 
 
-main {
-  min-height: 300px;
-  background-color: blue;
-}
-
-section {
-  border: solid 1px black;
-  height: 150px;
-}
 
 footer {
   height: 300px;
@@ -101,6 +92,22 @@ padding-top: 71px;
   width: 115px;
   left: 389px;
   border-radius: 5px;
+}
+
+
+/* sezione uno */
+
+#sezione-uno img {
+  width: 350px;
+}
+
+#sezione-uno i {
+  font-size: 30px;
+  color: #2C3E50;
+}
+
+#sezione-uno {
+  color: #2C3E50;
 }
 
 /* Small devices (tablets, 768px and up) */
