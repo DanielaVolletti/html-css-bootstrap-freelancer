@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole debug */
+header {
+  height: 200px;
+  background-color: yellow;
+}
+
+main {
+  min-height: 300px;
+  background-color: blue;
+}
+
+section {
+  border: solid 1px black;
+  height: 150px;
+}
+
+footer {
+  height: 300px;
+  background-color: purple;
+}
+
+/* sezione iniziale con barra di navigazione */
