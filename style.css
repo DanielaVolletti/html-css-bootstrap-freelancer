@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.centratura {
+  text-align: center;
+}
+
 /* regole debug */
 header {
   height: 200px;
@@ -26,3 +30,54 @@ footer {
 }
 
 /* sezione iniziale con barra di navigazione */
+header {
+  background-color: #1ABC9C;
+}
+
+header nav {
+  background-color: #2C3E50;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.lista a:hover {
+  color: #148F77;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  header nav {
+    padding: 25px 0;
+  }
+
+  #start-nav {
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .lista a {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #start-bootstrap
+}
