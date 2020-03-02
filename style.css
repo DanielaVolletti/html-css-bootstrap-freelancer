@@ -33,6 +33,7 @@ header {
 
 header nav {
   background-color: #2C3E50;
+  padding: 10px;
 }
 
 header a {
@@ -46,6 +47,8 @@ header a:hover {
 
 #start-nav {
   font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
 }
 
 .lista a {
@@ -61,26 +64,51 @@ header a:hover {
   color: white;
 }
 
+#start-bootstrap {
+padding-top: 71px;
+}
+
 #start-bootstrap h1 {
   font-weight: bold;
 }
 
+#start-bootstrap img {
+  width: 200px;
+  padding-top: 50px;
+}
 
+#start-bootstrap h1 {
+  font-size: 45px;
+}
+
+#start-bootstrap i {
+  font-size: 30px;
+}
+
+#bordino-uno {
+  border: solid 2px;
+  position: relative;
+  bottom: 17px;
+  width: 115px;
+  left: 228px;
+  border-radius: 5px;
+}
+
+#bordino-due {
+  border: solid 2px;
+  position: relative;
+  bottom: 21px;
+  width: 115px;
+  left: 389px;
+  border-radius: 5px;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  header nav {
-    padding: 10px;
-  }
-
   #start-nav {
     font-size: 19px;
     line-height: 50px;
-  }
-
-  #start-bootstrap {
-  padding-top: 71px;
   }
 
   #start-bootstrap img {
@@ -169,7 +197,7 @@ header a:hover {
   #start-bootstrap p {
     font-size: 24px;
   }
-  
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
