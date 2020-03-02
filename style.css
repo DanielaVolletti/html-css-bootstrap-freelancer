@@ -9,10 +9,7 @@
 }
 
 /* regole debug */
-header {
-  height: 200px;
-  background-color: yellow;
-}
+
 
 main {
   min-height: 300px;
@@ -47,19 +44,132 @@ header a:hover {
   color: white;
 }
 
+#start-nav {
+  font-weight: bold;
+}
+
+.lista a {
+  font-weight: bold;
+}
+
 .lista a:hover {
   color: #148F77;
+  background-color: #2C3E50!important;
 }
+
+#start-bootstrap h1, #start-bootstrap i, #bordino-uno, #bordino-due, #start-bootstrap p {
+  color: white;
+}
+
+#start-bootstrap h1 {
+  font-weight: bold;
+}
+
 
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+  header nav {
+    padding: 10px;
+  }
+
+  #start-nav {
+    font-size: 19px;
+    line-height: 50px;
+  }
+
+  #start-bootstrap {
+  padding-top: 71px;
+  }
+
+  #start-bootstrap img {
+    width: 240px;
+    padding-top: 80px;
+  }
+
+  #start-bootstrap h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+
+  #start-bootstrap i {
+    font-size: 30px;
+  }
+
+  #bordino-uno {
+    border: solid 2px;
+    position: relative;
+    bottom: 17px;
+    width: 115px;
+    left: 393px;
+    border-radius: 5px;
+  }
+
+  #bordino-due {
+    border: solid 2px;
+    position: relative;
+    bottom: 21px;
+    width: 115px;
+    left: 214px;
+    border-radius: 5px;
+  }
+
+  #start-bootstrap p {
+    font-size: 19px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+  header nav {
+    padding: 20px;
+  }
+
+  #start-nav {
+    font-size: 28px;
+  }
+
+  .lista a {
+    font-size: 16px;
+  }
+
+  #start-bootstrap {
+  padding-top: 91px;
+  }
+
+  #start-bootstrap h1 {
+    font-size: 60px;
+    padding-top: 20px;
+  }
+
+  #bordino-uno {
+    border: solid 2px;
+    position: relative;
+    bottom: 17px;
+    width: 115px;
+    left: 322px;
+    border-radius: 5px;
+  }
+
+  #bordino-due {
+    border: solid 2px;
+    position: relative;
+    bottom: 21px;
+    width: 115px;
+    left: 500px;
+    border-radius: 5px;
+  }
+
+  #start-bootstrap p {
+    font-size: 24px;
+  }
+  
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -71,13 +181,50 @@ header a:hover {
 
   #start-nav {
     font-size: 27px;
-    font-weight: bold;
   }
 
   .lista a {
     font-size: 16px;
-    font-weight: bold;
   }
 
-  #start-bootstrap
+  #start-bootstrap {
+  padding-top: 101px;
+  }
+
+  #start-bootstrap img {
+    width: 250px;
+    padding-top: 100px;
+  }
+
+  #start-bootstrap i {
+    font-size: 30px;
+  }
+
+  #start-bootstrap h1 {
+    font-size: 65px;
+  }
+
+  #bordino-uno {
+    border: solid 2px;
+    position: relative;
+    bottom: 17px;
+    width: 150px;
+    left: 393px;
+    border-radius: 5px;
+  }
+
+  #bordino-due {
+    border: solid 2px;
+    position: relative;
+    bottom: 20px;
+    width: 150px;
+    left: 594px;
+    border-radius: 5px;
+  }
+
+  #start-bootstrap p {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+
 }
