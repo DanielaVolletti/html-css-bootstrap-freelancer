@@ -20,6 +20,7 @@ footer {
 /* sezione iniziale con barra di navigazione */
 header {
   background-color: #1ABC9C;
+  padding-bottom: 50px;
 }
 
 header .nav-background {
@@ -101,22 +102,102 @@ padding-top: 71px;
 
 /* sezione uno */
 
-#sezione-uno img {
-  width: 350px;
-}
-
-#sezione-uno i {
-  font-size: 30px;
-  color: #2C3E50;
-}
-
 #sezione-uno {
   color: #2C3E50;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
+
+#stellina-due {
+  padding-bottom: 30px;
+}
+
+#stellina-due i {
+  font-size: 30px;
+  position: absolute;
+  top: 50px;
+  color: #2C3E50;
+}
+
+.bordino-due {
+  display: inline-block;
+  border: solid 2px;
+  width: 115px;
+  margin-left: 40px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+#sezione-uno h1 {
+  padding-left: 40px;
+  font-weight: bold;
+}
+
+/* quadrati immagini */
+#sezione-uno img {
+  width: 400px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+/* seconda sezione */
+#sezione-due {
+  background-color: #1ABC9C;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 70px;:
+}
+
+#sezione-due h1 {
+  font-weight: bold;
+  padding-left: 35px;
+}
+
+#stellina-tre {
+  padding-bottom: 30px;
+}
+
+#stellina-tre i {
+  font-size: 30px;
+  position: absolute;
+  top: 70px;
+}
+
+.bordino-tre {
+  display: inline-block;
+  border: solid 2px;
+  width: 115px;
+  margin-left: 40px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+#sezione-due p {
+  font-size: 20px;
+  text-align: left;
+}
+
+#sezione-due button {
+  background: none;
+  padding: 20px 25px;
+  border-radius: 10px;
+  border: white solid 2px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+
+
+/* sezione tre */
+#sezione-tre h1, #stellina-quattro {
+  color: #2C3E50;
+}
+
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+  /* sezione inizio pagina */
   #start-bootstrap img {
     width: 240px;
     padding-top: 80px;
@@ -136,6 +217,25 @@ padding-top: 71px;
     padding-top: 20px;
     padding-bottom: 50px;
   }
+
+  /* prima sezione */
+
+  #sezione-uno {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  #stellina-due i {
+    top: 70px;
+  }
+
+  #sezione-uno img {
+    width: 100%;
+    margin-right: 5px;
+  }
+
+
+
 
 
 }
@@ -171,6 +271,16 @@ padding-top: 71px;
   #start-bootstrap h4 {
     font-size: 24px;
   }
+
+  /* sezione prima */
+  #sezione-uno h1 {
+    font-size: 50px
+  }
+
+  #stellina-due i {
+    top: 85px;
+
+
 
 }
 
