@@ -22,36 +22,46 @@ header {
   background-color: #1ABC9C;
 }
 
-header nav {
+header .nav-background {
   background-color: #2C3E50;
   padding: 10px;
 }
 
 header a {
   color: white;
+  text-decoration: none;
 }
 
 header a:hover {
   text-decoration: none;
-  color: white;
 }
 
 #start-nav {
   font-weight: bold;
-  font-size: 20px;
   line-height: 50px;
+  font-size: 20px;
 }
 
-.lista a {
+#start-nav:hover {
+  color: white;
+}
+
+#lista ul li {
+  list-style-type: none;
+  float: left;
+  width: calc(100% / 3);
+}
+
+#lista ul li a {
   font-weight: bold;
+  font-size: 10px;
 }
 
-.lista a:hover {
+#lista ul li a:hover {
   color: #148F77;
-  background-color: #2C3E50!important;
 }
 
-#start-bootstrap h1, #start-bootstrap i, #bordino-uno, #bordino-due, #start-bootstrap p {
+#start-bootstrap h1, #start-bootstrap h4, #stellina {
   color: white;
 }
 
@@ -61,6 +71,7 @@ padding-top: 71px;
 
 #start-bootstrap h1 {
   font-weight: bold;
+  font-size: 45px;
 }
 
 #start-bootstrap img {
@@ -68,29 +79,22 @@ padding-top: 71px;
   padding-top: 50px;
 }
 
-#start-bootstrap h1 {
-  font-size: 45px;
+#stellina {
+  padding-bottom: 20px;
 }
 
-#start-bootstrap i {
+#stellina i {
   font-size: 30px;
+  position: absolute;
+  bottom: 39px;
 }
 
-#bordino-uno {
+.bordino {
+  display: inline-block;
   border: solid 2px;
-  position: relative;
-  bottom: 17px;
   width: 115px;
-  left: 228px;
-  border-radius: 5px;
-}
-
-#bordino-due {
-  border: solid 2px;
-  position: relative;
-  bottom: 21px;
-  width: 115px;
-  left: 389px;
+  margin-left: 40px;
+  margin-right: 8px;
   border-radius: 5px;
 }
 
@@ -113,11 +117,6 @@ padding-top: 71px;
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  #start-nav {
-    font-size: 19px;
-    line-height: 50px;
-  }
-
   #start-bootstrap img {
     width: 240px;
     padding-top: 80px;
@@ -128,29 +127,11 @@ padding-top: 71px;
     padding-bottom: 10px;
   }
 
-  #start-bootstrap i {
-    font-size: 30px;
+  #stellina i {
+    bottom: 119px;
   }
 
-  #bordino-uno {
-    border: solid 2px;
-    position: relative;
-    bottom: 17px;
-    width: 115px;
-    left: 393px;
-    border-radius: 5px;
-  }
-
-  #bordino-due {
-    border: solid 2px;
-    position: relative;
-    bottom: 21px;
-    width: 115px;
-    left: 214px;
-    border-radius: 5px;
-  }
-
-  #start-bootstrap p {
+  #start-bootstrap h4 {
     font-size: 19px;
     padding-top: 20px;
     padding-bottom: 50px;
@@ -162,16 +143,16 @@ padding-top: 71px;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  header nav {
+  header .nav-background {
     padding: 20px;
   }
 
-  #start-nav {
-    font-size: 28px;
+  #lista ul li a {
+    font-size: 17px;
   }
 
-  .lista a {
-    font-size: 16px;
+  #start-nav {
+    font-size: 27px;
   }
 
   #start-bootstrap {
@@ -183,25 +164,11 @@ padding-top: 71px;
     padding-top: 20px;
   }
 
-  #bordino-uno {
-    border: solid 2px;
-    position: relative;
-    bottom: 17px;
-    width: 115px;
-    left: 322px;
-    border-radius: 5px;
+  #stellina i {
+    bottom: 125px;
   }
 
-  #bordino-due {
-    border: solid 2px;
-    position: relative;
-    bottom: 21px;
-    width: 115px;
-    left: 500px;
-    border-radius: 5px;
-  }
-
-  #start-bootstrap p {
+  #start-bootstrap h4 {
     font-size: 24px;
   }
 
@@ -210,16 +177,8 @@ padding-top: 71px;
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  header nav {
-    padding: 25px 0;
-  }
-
-  #start-nav {
-    font-size: 27px;
-  }
-
-  .lista a {
-    font-size: 16px;
+  header .nav-background {
+    padding: 25px;
   }
 
   #start-bootstrap {
@@ -231,33 +190,16 @@ padding-top: 71px;
     padding-top: 100px;
   }
 
-  #start-bootstrap i {
-    font-size: 30px;
-  }
 
   #start-bootstrap h1 {
     font-size: 65px;
   }
 
-  #bordino-uno {
-    border: solid 2px;
-    position: relative;
-    bottom: 17px;
-    width: 150px;
-    left: 393px;
-    border-radius: 5px;
+  #stellina i {
+    bottom: 126px;
   }
 
-  #bordino-due {
-    border: solid 2px;
-    position: relative;
-    bottom: 20px;
-    width: 150px;
-    left: 594px;
-    border-radius: 5px;
-  }
-
-  #start-bootstrap p {
+  #start-bootstrap h4 {
     font-size: 25px;
     padding-top: 20px;
   }
