@@ -204,7 +204,7 @@ padding-top: 71px;
   font-weight: bold;
 }
 
-#stellina-quattro i{
+#stellina-quattro i {
   font-size: 30px;
   position: absolute;
   top: 70px;
@@ -272,12 +272,12 @@ footer {
 
 .social i {
   float: left;
-  width: calc(84%/4);
+  width: calc(70%/4);
   border: solid 2px white;
   border-radius: 100%;
   padding: 15px 0;
   font-size: 20px;
-  margin-left: 4%;
+  margin-left: 7%;
 }
 
 #blu-chiaro h5 {
@@ -388,8 +388,35 @@ footer {
 
   #stellina-due i {
     top: 85px;
+  }
 
+  /* seconda sezione */
+  #sezione-due h1 {
+    font-size: 50px;
+  }
 
+  #stellina-tre {
+    padding-bottom: 40px;
+    padding-top: 15px;
+  }
+
+  #stellina-tre i {
+    top: 100px;
+  }
+
+  /* sezione tre */
+
+  #sezione-tre h1{
+    font-size: 50px;
+  }
+
+  #stellina-quattro {
+    padding-top: 20px;
+  }
+
+  #stellina-quattro i {
+    top: 105px;
+  }
 
 }
 
@@ -423,4 +450,9 @@ footer {
     padding-top: 20px;
   }
 
+  /* piè di pagina */
+
+  .social i {
+    width: calc(65%/4);
+  }
 }
