@@ -184,6 +184,10 @@ padding-top: 71px;
   margin-top: 30px;
 }
 
+#sezione-due button:hover {
+  background-color: #F8F9FA;
+  color: #212529;
+}
 
 
 /* sezione tre */
@@ -247,6 +251,10 @@ padding-top: 71px;
   margin-top: 20px;
 }
 
+#bottone-send button:hover {
+  background-color: #159A80;
+}
+
 /* piè di pagina */
 
 #blu-chiaro {
@@ -278,6 +286,12 @@ footer {
   padding: 15px 0;
   font-size: 20px;
   margin-left: 7%;
+}
+
+.social i:hover {
+  background-color: white;
+  color: #2C3E50;
+  cursor: pointer;
 }
 
 #blu-chiaro h5 {
@@ -442,7 +456,7 @@ footer {
   }
 
   #stellina i {
-    bottom: 126px;
+    bottom: 127px;
   }
 
   #start-bootstrap h4 {
